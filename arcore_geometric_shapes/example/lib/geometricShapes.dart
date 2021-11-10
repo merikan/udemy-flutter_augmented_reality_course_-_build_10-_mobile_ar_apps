@@ -77,9 +77,8 @@ class _GeometricShapesState extends State<GeometricShapes> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
+    arCoreController.dispose();
     super.dispose();
-    
   }
 
   @override
