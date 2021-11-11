@@ -26,7 +26,7 @@ class _AvengersCharactersState extends State<AvengersCharacters> {
   }
 
   void addCharacter(ArCoreHitTestResult hit) async {
-    final bytes = (await rootBundle.load("assets/ironman.png")).buffer.asUint8List();
+    final bytes = (await rootBundle.load("assets/spiderman.png")).buffer.asUint8List();
 
     final characterPosition = ArCoreNode(
       image: ArCoreImage(bytes: bytes, height: 500,width: 500),
